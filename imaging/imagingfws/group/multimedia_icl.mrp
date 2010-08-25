@@ -1,0 +1,77 @@
+#multimedia_icl.mrp
+#
+# Copyright (c) 2004-2010 Nokia Corporation and/or its subsidiary(-ies).
+# All rights reserved.
+# This component and the accompanying materials are made available
+# under the terms of "Eclipse Public License v1.0"
+# which accompanies this distribution, and is available
+# at the URL "http://www.eclipse.org/legal/epl-v10.html".
+#
+# Initial Contributors:
+# Nokia Corporation - initial contribution.
+#
+# Contributors:
+#
+# Description:
+#
+
+component	multimedia_icl
+
+source  \sf\os\mmimaging\imaging\imagingfws\group
+source	\sf\os\mmimaging\imaging\imagingfws\inc
+source	\sf\os\mmimaging\imaging\imagingfws\inc_plat
+source	\sf\os\mmimaging\imaging\imagingfws\inc_pub
+source  \sf\os\mmimaging\imaging\imagingfws\Documentation
+source	\sf\os\mmimaging\imaging\imagingfws\src
+source  \sf\os\mmimaging\imaging\imagingfws\bwins
+source  \sf\os\mmimaging\imaging\imagingfws\eabi
+source  \sf\os\mmimaging\imaging\imagingfws\resolver
+source	\sf\os\mmimaging\imaging\imagingfws\ImageTransform
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\bwins
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\eabi
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\group
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\inc
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\inc_plat
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\inc_pub
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\MmpFiles
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapConverter.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapConverterBody.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapRotation.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapRotationBody.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapRotationBody.inl
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapScaling.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapScalingBody.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapScalingBody.inl
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapTransformsBody.h
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapTransformsMain.cpp
+source  \sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\BitmapTransformsMain.h
+source	\sf\os\mmimaging\imaging\imagingfws\BitmapTransform\src\distribution.policy.s60
+source  \sf\os\mmimaging\imaging\imagingfws\GifScaler
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\bwins
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\eabi
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\group
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\inc
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\inc_plat
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\inc_pub
+source  \sf\os\mmimaging\imaging\imagingfws\ImageDisplay\MmpFiles
+source	\sf\os\mmimaging\imaging\imagingfws\ImageDisplay\plugins\Exif
+source	\sf\os\mmimaging\imaging\imagingfws\ImageDisplay\plugins\IclWrapper
+source	\sf\os\mmimaging\imaging\imagingfws\ImageDisplay\src
+source	\sf\os\mmimaging\imaging\imagingfws\MediaClientImage
+source	\sf\os\mmimaging\imaging\imagingfws\ExifUtility
+source	\sf\os\mmimaging\imaging\imagingfws\ImageProcessor
+source	\sf\os\mmimaging\imaging\imagingfws\panorama
+
+binary	 \sf\os\mmimaging\imaging\imagingfws\group all
+
+exports	 \sf\os\mmimaging\imaging\imagingfws\group
+
+notes_source	\component_defs\release.src
+
+
+ipr D 
+ipr T \sf\os\mmimaging\imaging\imagingfws\MediaClientImage\MmpFiles\Test
+ipr T \sf\os\mmimaging\imaging\imagingfws\MediaClientImage\Source
+ipr D \sf\os\mmimaging\imaging\imagingfws\MediaClientImage\Source\Client
+ipr T \sf\os\mmimaging\imaging\imagingfws\src\Test
+ipr T \sf\os\mmimaging\imaging\imagingfws\ImageProcessor\test

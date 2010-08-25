@@ -1,0 +1,69 @@
+\\ Copyright (c) 2010 Nokia Corporation and\or its subsidiary(-ies).
+\\ All rights reserved.
+\\ This component and the accompanying materials are made available
+\\ under the terms of "Eclipse Public License v1.0"
+\\ which accompanies this distribution, and is available
+\\ at the URL "http:\\www.eclipse.org\legal\epl-v10.html".
+\\
+\\ Initial Contributors:
+\\ Nokia Corporation - initial contribution.
+\\
+\\ Contributors:
+\\
+\\ Description:
+\\
+
+"\epoc32\release\armv5\urel\te_tsi_icl_dirscan_decode_01Suite.exe"-"c:\sys\bin\te_tsi_icl_dirscan_decode_01Suite.exe"
+
+
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_dirscan_decode_01\scripts\te_tsi_icl_dirscan_decode_01suite.script"-"c:\testdata\scripts\te_tsi_icl_dirscan_decode_01suite.script"
+
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_dirscan_decode_01\testdata\00000414.mbm"-"c:\te_tsi_icl_dirscan_decode_01\00000414.mbm"
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_dirscan_decode_01\testdata\00000417.mbm"-"c:\te_tsi_icl_dirscan_decode_01\00000417.mbm"
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_dirscan_decode_01\testdata\00000440.mbm"-"c:\te_tsi_icl_dirscan_decode_01\00000440.mbm"
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_dirscan_decode_01\testdata\corrupt_ifd_entry.mbm"-"c:\te_tsi_icl_dirscan_decode_01\corrupt_ifd_entry.mbm"
+
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000023.tif"-"c:\te_tsi_icl_dirscan_decode_01\00000023.tif"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000386.wmf"-"c:\te_tsi_icl_dirscan_decode_01\00000386.wmf"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000475.gif"-"c:\te_tsi_icl_dirscan_decode_01\00000475.gif"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000614.png"-"c:\te_tsi_icl_dirscan_decode_01\00000614.png"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000719.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000719.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000737.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000737.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000738.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000738.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000763.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000763.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000813.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000813.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000912.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000912.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000913.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000913.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000914.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000914.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000915.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000915.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000916.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000916.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000917.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000917.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000918.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000918.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00000919.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00000919.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001127.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001127.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001128.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001128.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001129.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001129.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001182.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001182.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001183.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001183.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001184.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001184.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001268.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001268.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001499.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001499.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001531.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\00001531.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\34x34_jpeg-00001785.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\34x34_jpeg-00001785.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\34x34_jpeg-00001786.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\34x34_jpeg-00001786.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\34x34_jpeg-00001787.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\34x34_jpeg-00001787.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\72x14_jpeg-00001785.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\72x14_jpeg-00001785.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\72x14_jpeg-00001786.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\72x14_jpeg-00001786.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\72x14_jpeg-00001787.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\72x14_jpeg-00001787.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\256x256_jpeg-00001785.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\256x256_jpeg-00001785.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\256x256_jpeg-00001786.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\256x256_jpeg-00001786.jpg"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\256x256_jpeg-00001787.jpg"-"c:\te_tsi_icl_dirscan_decode_01\jpg\256x256_jpeg-00001787.jpg"
+
+//Codenomicon images for DEF135680
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001276.bmp"-"c:\te_tsi_icl_dirscan_decode_01\00001276.bmp"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001316.bmp"-"c:\te_tsi_icl_dirscan_decode_01\00001316.bmp"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00001438.bmp"-"c:\te_tsi_icl_dirscan_decode_01\00001438.bmp"
+
+//Codenomicon images for DEF135963
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00015875.wmf"-"c:\te_tsi_icl_dirscan_decode_01\00015875.wmf"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_dirscan_decode_01\testdata\00007284.wmf"-"c:\te_tsi_icl_dirscan_decode_01\00007284.wmf"

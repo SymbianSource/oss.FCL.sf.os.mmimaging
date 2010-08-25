@@ -1,0 +1,45 @@
+#multimedia_inttest_icl_source.mrp
+#
+# Copyright (c) 2004-2010 Nokia Corporation and/or its subsidiary(-ies).
+# All rights reserved.
+# This component and the accompanying materials are made available
+# under the terms of "Eclipse Public License v1.0"
+# which accompanies this distribution, and is available
+# at the URL "http://www.eclipse.org/legal/epl-v10.html".
+#
+# Initial Contributors:
+# Nokia Corporation - initial contribution.
+#
+# Contributors:
+#
+# Description:
+#
+
+component	multimedia_inttest_icl_source
+
+source	\sf\os\mmimaging\imaging\imaginginttest\bwins
+source	\sf\os\mmimaging\imaging\imaginginttest\Codecs
+source	\sf\os\mmimaging\imaging\imaginginttest\data
+source	\sf\os\mmimaging\imaging\imaginginttest\eabi
+source	\sf\os\mmimaging\imaging\imaginginttest\group
+source	\sf\os\mmimaging\imaging\imaginginttest\imagedecoder
+source	\sf\os\mmimaging\imaging\imaginginttest\imageencoder
+source	\sf\os\mmimaging\imaging\imaginginttest\inc
+source	\sf\os\mmimaging\imaging\imaginginttest\mmpfiles
+source	\sf\os\mmimaging\imaging\imaginginttest\scriptfiles
+source	\sf\os\mmimaging\imaging\imaginginttest\src
+source	\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_cod_5
+source	\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_dirscan_decode_01
+source	\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_excludedfiles_01
+source	\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_pluginsupport_01
+source	\sf\os\mmimaging\imaging\imaginginttest\TestImageIAgent
+source	\sf\os\mmimaging\imaging\imaginginttest\tsi_icl_btrans_01
+source	\sf\os\mmimaging\imaging\imaginginttest\TSI_ICL_COD
+source	\sf\os\mmimaging\imaging\imaginginttest\TSI_ICL_IMGDISP
+
+notes_source	\component_defs\release.src
+
+
+ipr T 
+ipr F \sf\os\mmimaging\imaging\imaginginttest\Codecs
+

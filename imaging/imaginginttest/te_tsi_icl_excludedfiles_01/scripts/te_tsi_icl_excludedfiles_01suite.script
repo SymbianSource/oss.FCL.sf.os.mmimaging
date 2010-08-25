@@ -1,0 +1,38 @@
+//
+// Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+// All rights reserved.
+// This component and the accompanying materials are made available
+// under the terms of "Eclipse Public License v1.0"
+// which accompanies this distribution, and is available
+// at the URL "http://www.eclipse.org/legal/epl-v10.html".
+//
+// Initial Contributors:
+// Nokia Corporation - initial contribution.
+//
+// Contributors:
+//
+// Description:
+//
+
+PRINT Run all te_tsi_icl_excludedfiles_01 Suite Tests
+
+LOAD_SUITE te_tsi_icl_excludedfiles_01Suite
+
+START_TESTCASE MM-TSI-ICL-EXCLUDEDFILES-01-0001
+//!@SYMTestCaseID		MM-TSI-ICL-EXCLUDEDFILES-01-0001
+//!@SYMTestCaseDesc		Positive: 
+//!@SYMTestType			CIT
+//!@SYMTestPriority		Critical
+//!@SYMAPI			CImageDecoder::FileNewL
+//!@SYMTestStatus		Implemented
+//!@SYMTestActions		1. PDEF122601: Invalid next-ifd offset inside TIFF puts decoder into forever loop
+//!				2. Try to load a corrupt Tiff image that has an infinite parsing loop
+//!				3. Ensure that CImageDecoder::FileNewL() only leaves with KErrNotFound, not KErrCorrupt/KErrNoMemory
+//!@SYMTestExpectedResults	CImageDecoder::FileNewL() leaves with KErrNotFound
+RUN_TEST_STEP 100 te_tsi_icl_excludedfiles_01Suite tsi_icl_excludedfiles_010Step c:\testdata\configs\te_tsi_icl_excludedfiles_01Suite.ini INFINITETIF
+
+RUN_TEST_STEP 100 te_tsi_icl_excludedfiles_01Suite tsi_icl_excludedfiles_011Step c:\testdata\configs\te_tsi_icl_excludedfiles_01Suite.ini INFINITEWMF
+
+END_TESTCASE MM-TSI-ICL-EXCLUDEDFILES-01-0001
+
+PRINT Complate_te_tsi_icl_excludedfiles_01_Tests

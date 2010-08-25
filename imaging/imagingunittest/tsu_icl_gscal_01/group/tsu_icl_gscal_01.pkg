@@ -1,0 +1,35 @@
+// Copyright (c) 2010 Nokia Corporation and/or its subsidiary(-ies).
+// All rights reserved.
+// This component and the accompanying materials are made available
+// under the terms of "Eclipse Public License v1.0"
+// which accompanies this distribution, and is available
+// at the URL "http://www.eclipse.org/legal/epl-v10.html".
+//
+// Initial Contributors:
+// Nokia Corporation - initial contribution.
+//
+// Contributors:
+//
+// Description:
+//
+
+"\epoc32\release\armv5\udeb\tsu_icl_gscal_01.dll"-"c:\sys\bin\tsu_icl_gscal_01.dll"
+
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\scripts\TSU_ICL_GSCAL_01.script"-"c:\tsu_icl_gscal_01.script"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\scripts\TSU_ICL_GSCAL_01_ALLOC.script"-"c:\TSU_ICL_GSCAL_01_ALLOC.script"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\scripts\TSU_ICL_GSCAL_01_Panic.script"-"c:\TSU_ICL_GSCAL_01_Panic.script"
+
+//tsu_icl_gscal_01 unit test source/input files
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2t.mbm"-"c:\tsu_icl_gscal_01\png2_2t.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2m.mbm"-"c:\tsu_icl_gscal_01\png2_2m.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8pThmb.mbm"-"c:\tsu_icl_gscal_01\png2_2_8pThmb.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8pmThmb.mbm"-"c:\tsu_icl_gscal_01\png2_2_8pmThmb.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8pm.mbm"-"c:\tsu_icl_gscal_01\png2_2_8pm.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8p.mbm"-"c:\tsu_icl_gscal_01\png2_2_8p.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8.mbm"-"c:\tsu_icl_gscal_01\png2_2_8.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2.mbm"-"c:\tsu_icl_gscal_01\png2_2.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8pSmall.mbm"-"c:\tsu_icl_gscal_01\png2_2_8pSmall.mbm"
+"\sf\os\mmimaging\imaging\imagingunittest\tsu_icl_gscal_01\TestFiles\png2_2_8pmThrsh.mbm"-"c:\tsu_icl_gscal_01\png2_2_8pmThrsh.mbm"
+
+// MMTSETDATA
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\unittest\icl\tsu_icl_gscal_01\testfiles\png2_2.png"-"c:\tsu_icl_gscal_01\png2_2.png"

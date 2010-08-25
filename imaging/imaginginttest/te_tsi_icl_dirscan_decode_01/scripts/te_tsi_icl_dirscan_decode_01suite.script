@@ -1,0 +1,81 @@
+//
+// Copyright (c) 2009 Nokia Corporation and/or its subsidiary(-ies).
+// All rights reserved.
+// This component and the accompanying materials are made available
+// under the terms of "Eclipse Public License v1.0"
+// which accompanies this distribution, and is available
+// at the URL "http://www.eclipse.org/legal/epl-v10.html".
+//
+// Initial Contributors:
+// Nokia Corporation - initial contribution.
+//
+// Contributors:
+//
+// Description:
+//
+//
+PRINT Run all te_tsi_icl_dirscan_decode_01 Suite Tests
+
+//
+LOAD_SUITE te_tsi_icl_dirscan_decode_01suite
+
+START_TESTCASE  MM-TSI-ICL-DIRSCAN-DECODE-01-0010
+//!@SYMTestCaseID		MM-TSI-ICL-DIRSCAN-DECODE-01-0010
+//!@SYMTestCaseDesc		Positive: Scan the dicrectory c:\te_tsi_icl_dirscan_decode_01 and decode all the files one by one. During decoding codec may return error but it should not panic.
+//!@SYMTestPriority		Critical
+//!@SYMAPI			CImageDecoder::FileNewL
+//!@SYMAPI			CImageDecoder::FrameInfo
+//!@SYMAPI			CImageDecoder::Convert
+//!@SYMTestStatus		Implemented
+//!@SYMTestActions		1. Scan the directory c:\te_tsi_icl_dirscan_decode_01 for each image file identified do following steps.
+//!				2. Create an image decoder using the file.
+//!				3. Decode the source file into a destination bitmap.
+//!				4. Check for the error returned by decoder and log it.
+//!				5. If the image is a jpeg, then attempt to use some arbitrary extension operations
+//!				6. Continue with the next image.
+//!@SYMTestExpectedResults	Test should not panic for all the files in directory. Codec shall report errors if input image files are corrupted.
+
+
+// DEF125311: ICC-Codenomicon:ICL Panicing while decoding JPG images
+// Files: 00000919.jpg, 00000918.jpg, 00000917.jpg, 00000916.jpg, 00000915.jpg, 00000914.jpg, 00000913.jpg, 00000912.jpg
+
+// DEF126213: ICC-Codenomicon: MBM decoder panics
+// Files: 00000414.mbm, 00000417.mbm, 00000440.mbm
+
+// DEF125087: ICC-Codenomicon: ICL Panicking with Panic USER 0 while decoding "jpg" files
+// Files: 00000737.jpg, 00000738.jpg, 00000813.jpg
+
+// DEF125088: ICC-Codenomicon: ICL Panicing while decoding ".JPG" Images
+// Files: 00001127.jpg, 00001128.jpg, 00001182.jpg, 00001183.jpg, 00001184.jpg, 00001268.jpg, 00001499.jpg, 00001531.jpg
+
+RUN_TEST_STEP !Heap=0x5000000 100 te_tsi_icl_dirscan_decode_01suite tsi_icl_dirscan_decode_010Step
+END_TESTCASE MM-TSI-ICL-DIRSCAN-DECODE-01-0010
+
+START_TESTCASE MM-TSI-ICL-DIRSCAN-DECODE-01-0020
+//!@SYMTestCaseID		MM-TSI-ICL-DIRSCAN-DECODE-01-0020
+//!@SYMTestCaseDesc		Positive: Scan the dicrectory c:\te_tsi_icl_dirscan_decode_01\jpg and decode all the jpeg files using CBufferedImageDecoder, one by one. The image data is passed to the decoder chunk-by-chunk. During decoding codec may return error but it should not panic.
+//!@SYMTestPriority		High
+//!@SYMAPI			CBufferedImageDecoder::NewL
+//!@SYMAPI                      CBufferedImageDecoder::OpenL
+//!@SYMAPI			CBufferedImageDecoder::FrameInfo
+//!@SYMAPI			CBufferedImageDecoder::Convert
+//!@SYMAPI			CBufferedImageDecoder::ContinueOpenL
+//!@SYMAPI			CBufferedImageDecoder::ContinueConvert
+//!@SYMAPI			CBufferedImageDecoder::AppendDataL
+//!@SYMAPI			CBufferedImageDecoder::IsImageHeaderProcessingComplete
+//!@SYMTestStatus		Implemented
+//!@SYMTestActions		1. Scan the directory c:\te_tsi_icl_dirscan_decode_01\jpg for each jpeg image file identified do following steps.
+//!				2. Create an image decoder
+//!				3. Decode the image data, passed in incrementally in chunks of 32bytes each, into a destination bitmap.
+//!				4. Check for the error returned by decoder and log it.
+//!				5. Continue with the next image.
+//!@SYMTestExpectedResults	Test should not panic for all the files in directory. Codec shall report errors if input image files are corrupted.
+
+
+//DEF135673 : JPEG images: panics when decoding Codenomicon images   
+//Files:256x256_jpeg-00001785.jpg, 256x256_jpeg-00001786.jpg, 256x256_jpeg-00001787.jpg, 34x34_jpeg-00001785.jpg, 34x34_jpeg-00001786.jpg, 34x34_jpeg-00001787.jpg, 72x14_jpeg-00001785.jpg, 72x14_jpeg-00001786.jpg, 72x14_jpeg-00001787.jpg
+
+RUN_TEST_STEP !Heap=0x5000000 100 te_tsi_icl_dirscan_decode_01suite tsi_icl_dirscan_decode_020Step
+END_TESTCASE MM-TSI-ICL-DIRSCAN-DECODE-01-0020 
+
+PRINT Complate_te_tsi_icl_dirscan_decode_01_Tests

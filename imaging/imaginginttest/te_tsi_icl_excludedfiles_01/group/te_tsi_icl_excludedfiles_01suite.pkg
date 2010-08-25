@@ -1,0 +1,27 @@
+// Copyright (c) 2010 Nokia Corporation and/or its subsidiary(-ies).
+// All rights reserved.
+// This component and the accompanying materials are made available
+// under the terms of "Eclipse Public License v1.0"
+// which accompanies this distribution, and is available
+// at the URL "http://www.eclipse.org/legal/epl-v10.html".
+//
+// Initial Contributors:
+// Nokia Corporation - initial contribution.
+//
+// Contributors:
+//
+// Description:
+//
+
+// test suite
+"\epoc32\release\armv5\urel\te_tsi_icl_excludedfiles_01Suite.exe"-"c:\sys\bin\te_tsi_icl_excludedfiles_01Suite.exe"
+
+// script and ini
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_excludedfiles_01\scripts\te_tsi_icl_excludedfiles_01Suite.script"-"c:\testdata\scripts\te_tsi_icl_excludedfiles_01Suite.script"
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_excludedfiles_01\testdata\te_tsi_icl_excludedfiles_01suite.ini"-"c:\testdata\configs\te_tsi_icl_excludedfiles_01suite.ini"
+
+//testdata
+"\sf\os\mmimaging\imaging\imaginginttest\te_tsi_icl_excludedfiles_01\testdata\refimages\rf4_arrow01_wmf.mbm"-"c:\te_tsi_icl_excludedfiles_01\refimages\rf4_arrow01_wmf.mbm"
+
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_excludedfiles_01\testdata\infinite.tifi"-"c:\te_tsi_icl_excludedfiles_01\infinite.tifi"
+"\sf\os\mm_testdata\mm_testimagedata\sf\os\mm\imagingandcamerafws\imagingfws\test\excludedfiles\inttest\icl\te_tsi_icl_excludedfiles_01\testdata\inputimages\arrow01.wmf"-"c:\te_tsi_icl_excludedfiles_01\inputimages\arrow01.wmf"
