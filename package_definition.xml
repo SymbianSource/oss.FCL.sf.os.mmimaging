@@ -32,5 +32,11 @@
         <unit mrp="imagingtestenv/imagingtesttools/Group/imaging_testtools_source.mrp" bldFile="imagingtestenv/imagingtesttools/Group"/>
       </component>
     </collection>
+    <collection id="imagingextensions" name="Imaging Extensions" level="app-if">
+   		<component id="imageadaptationextensions" name="Image Adaptation Extension">
+    		<unit bldFile="imagingextensions/imageadaptationextensions/group"	filter="!test"/>
+    		<unit bldFile="imagingextensions/imageadaptationextensions/iclextjpegapi/tsrc_api/group" filter="test"/>
+   		</component>
+  	</collection>
   </package>
 </SystemDefinition>

@@ -19,7 +19,7 @@
 #include <platform_paths.hrh>
 
 TARGET     IclExtJpegApi.dll
-CAPABILITY CAP_GENERAL_DLL
+CAPABILITY ALL -TCB
 targettype DLL
 
 UID 0x1000008D 0x10204BF0
